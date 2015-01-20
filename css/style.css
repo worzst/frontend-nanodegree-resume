@@ -15,7 +15,8 @@
 
 h1 {
   font-size: 40px;
-  color: #F5A623;
+  /*color: #F5A623;*/
+  color: #050C14;
   line-height: 48px;
   display: inline;
 }
@@ -23,7 +24,8 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999999;
+  /*color: #999999;*/
+  color: #050C14;
   line-height: 29px;
   padding: 10px;
 }
@@ -31,7 +33,8 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000000;
+  /*color: #000000;*/
+  color: #050C14;
   line-height: 22px;
 }
 
@@ -82,41 +85,52 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #F3F3F3;
+  /*color: #F3F3F3;*/
+  color: black;
   line-height: 28px;
 }
 
 #skillsH3 {
-  color: #F5AE23;
+  /*color: #F5AE23;*/
+  color: #050C14;
   display: none;
 }
 
 .orange {
-  background-color: #F5AE23;
+  /*background-color: #F5AE23;*/
+  background-color: #050C14;
 }
 
 .orange-text {
-  color: #F5AE23;
+  /*color: #F5AE23;*/
+  color: #050C14;
 }
 
 .white-text {
   font-weight: bold;
-  color: #FFFFFF;
+  /*color: #FFFFFF;*/
+  color: black;
+}
+
+.light-blue-text {
+  color: #DBE9F9;
 }
 
 .gray {
-  background-color: #F3F3F3;
+  /*background-color: #F3F3F3;*/
+  background-color: #DBE9F9;
   padding-bottom: 10px;
-  clear:both;
+  clear: both;
 }
 
 .dark-gray {
-  background-color: #4A4A4A;
+  /*background-color: #4A4A4A;*/
+  background-color: #8090A2;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #8090A2;
 }
 
 .flex-box {

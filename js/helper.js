@@ -72,7 +72,7 @@ $(document).ready(function() {
 /*
 The next few lines about clicks are for the Collecting Click Locations quiz in Lesson 2.
 */
-clickLocations = [];
+/*clickLocations = [];
 
 function logClicks(x,y) {
   clickLocations.push(
@@ -82,13 +82,19 @@ function logClicks(x,y) {
     }
   );
   console.log('x location: ' + x + '; y location: ' + y);
-}
+}*/
 
-$(document).click(function(loc) {
+/*$(document).click(function(loc) {
   // your code goes here!
-});
+  var x = loc.pageX;
+  var y = loc.pageY;
+  logClicks(x,y);
+});*/
 
-
+// $(document).click(function(loc) {
+//   // your code goes here!
+//   console.log(loc.pageX, loc.pageY);
+// });
 
 /*
 This is the fun part. Here's where we generate the custom Google Map for the website.
@@ -158,7 +164,7 @@ function initializeMap() {
     var marker = new google.maps.Marker({
       map: map,
       position: placeData.geometry.location,
-      title: name
+      title: title
     });
 
     // infoWindows are the little helper windows that open when you click
@@ -171,6 +177,7 @@ function initializeMap() {
     // hmmmm, I wonder what this is about...
     google.maps.event.addListener(marker, 'click', function() {
       // your code goes here!
+      // infowindow.open(map, marker);
     });
 
     // this is where the pin actually gets added to the map.
@@ -233,7 +240,7 @@ Uncomment the code below when you're ready to implement a Google Map!
 */
 
 // Calls the initializeMap() function when the page loads
-//window.addEventListener('load', initializeMap);
+window.addEventListener('load', initializeMap);
 
 // Vanilla JS way to listen for resizing of the window
 // and adjust map bounds
