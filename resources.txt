@@ -1,0 +1,3 @@
+I used the resources in the instructor notes in the JavaScript Basic course.
+
+I browsed some further in the jQuery API.
